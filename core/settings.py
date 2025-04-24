@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'celery',
     'app',
+    'django_celery_results',
 ]
 
 MIDDLEWARE = [
@@ -116,6 +117,7 @@ CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
 
 CELERY_TIMEZONE = 'America/Sao_Paulo'
 
+CELERY_RESULT_BACKEND = 'django-db'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
