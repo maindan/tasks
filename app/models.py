@@ -6,3 +6,6 @@ class Task(models.Model):
     second_value = models.IntegerField(null=False)
     result = models.IntegerField(null=True)
     created_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.title
