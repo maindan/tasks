@@ -30,6 +30,6 @@ Antes de executar a aplicação, certifique-se de ter os seguintes softwares ins
 3.  **Acesse a aplicação:**
 
     * Django-admin: A API está disponível em `http://localhost:8000/admin`
-    * Rota de task: A rota task está disponível em `http://localhost:8000/tasks`
+    * Rota de task: A rota task está disponível em `http://localhost:8000/task`
 
     Senha e usuário padrão do django admin: admin
